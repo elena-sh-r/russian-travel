@@ -1,0 +1,8 @@
+.header__lang-link {
+  
+}
+
+.header__lang-link__active {
+  text-decoration: underline;
+  padding-right: 18px;
+}
