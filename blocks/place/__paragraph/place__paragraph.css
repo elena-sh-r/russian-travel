@@ -1,0 +1,35 @@
+.place__paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.place__paragraph:last-of-type {
+  padding-top: 27px;
+}
+
+@media screen and (min-width: 1280px) {
+  .place__paragraph:last-of-type {
+    padding-top: 26px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+  .place__paragraph:last-of-type {
+    padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .place__paragraph:last-of-type {
+    padding-top: 25px;
+  }
+}
