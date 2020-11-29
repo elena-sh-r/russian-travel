@@ -9,3 +9,6 @@
 ## Используемые технологии
 * HTML 5
 * CSS 3
+
+## Ссылка на проект
+https://elena-sh-r.github.io/russian-travel/index.html
