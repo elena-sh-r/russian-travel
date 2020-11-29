@@ -4,42 +4,30 @@
   background-position: center;
   margin: 92px auto 0 auto;
   position: relative;
-  padding: 195px 232px 195px 232px;
-}
-
-.cover::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: #2A2C2F;
-  opacity: 0.3;
-  transition: .3s;
-}
-
-.cover:hover::before {
-  opacity: .8;
+  max-width: 1024px;
+  max-height: 640px;
 }
 
  @media screen and (min-width: 1280px) {
   .cover {
-    padding: 245px 312px 245px 312px;
     margin: 92px 48px 0 48px;
+    max-width: 1184px;
+    max-height: 740px;
   }
 }
 
 @media screen and (max-width: 950px) {
   .cover {
-    padding: 115px 104px 115px 104px;
     margin: 90px auto 0 auto;
+    max-width: 768px;
+    max-height: 480px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover {
-    padding: 33px 16px 33px 16px;
     margin: 66px auto 0 auto;
+    max-width: 320px;
+    max-height: 200px;
   }
 }

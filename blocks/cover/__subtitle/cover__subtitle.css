@@ -1,16 +1,30 @@
 .cover__subtitle {
-  margin: 32px auto 0 auto;
+  margin: 0 auto;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
   position: relative;
   max-width: 360px;
+  padding: 32px 232px 195px 232px;
 }
 
-@media screen and (max-width: 425px) {
+ @media screen and (min-width: 1280px) {
+  .cover__subtitle {
+    padding: 32px 412px 245px 412px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .cover__subtitle {
+    padding: 32px 204px 115px 204px;
+  }
+}
+
+@media screen and (max-width: 714px) {
   .cover__subtitle {
     max-width: 260px;
     font-size: 14px;
     line-height: 16px;
+    padding: 16px 16px 33px 16px;
   }
 }

@@ -3,11 +3,12 @@
   line-height: 28px;
   text-decoration: none;
   color: #fff;
+  padding-left: 18px;
+  transition: .3s;
 }
 
-.header__lang-link_active {
-  text-decoration: underline;
-  padding-right: 18px;
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 @media screen and (max-width: 425px) {
