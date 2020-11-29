@@ -5,7 +5,7 @@
   color: #fff;
 }
 
-.header__lang-link__active {
+.header__lang-link_active {
   text-decoration: underline;
   padding-right: 18px;
 }
